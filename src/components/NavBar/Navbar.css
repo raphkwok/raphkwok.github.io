@@ -8,7 +8,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 4rem;
+    padding: 3rem 4rem;
 }
 
 .app__navbar-logo {
@@ -16,6 +16,8 @@ body {
     justify-content: flex-start;
     align-items: center;
 
+    /* Temp Logo */
+    font-size: 3vh;
     font-family: var(--font-family-logo);
 }
 
@@ -38,5 +40,6 @@ body {
 }
 
 .app__navbar-links li:hover {
-    /* HOVER ANIM */
+    /* HOVER ANIM - TEMP */
+    color: var(--color-subtext);
 }

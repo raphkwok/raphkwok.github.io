@@ -1,0 +1,9 @@
+.app__gamejam {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#jams {
+    padding-left: 2rem;
+}

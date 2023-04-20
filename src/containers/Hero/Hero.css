@@ -1,0 +1,24 @@
+.app__hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    min-height: 50vh;
+}
+
+.app__title_name {
+    font-weight: 100;
+    font-size: 1.25vh;
+    line-height: 50px;
+    letter-spacing: 2em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.app__title_statement {
+    padding: 8rem;
+    letter-spacing: 0.2em;
+
+    text-transform: uppercase;
+}

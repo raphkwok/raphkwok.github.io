@@ -1,9 +1,30 @@
 .section__padding {
-    padding: 4rem 6rem;
-  }
+  padding: 4rem 6rem;
+}
+
+.section__divider {
+
+  background-color: var(--color-text-light);
+  width: 100%; /* Change later if can to pan the whole page */
+  height: 0px;
+  border: 1px solid var(--color-text-light);
+}
+
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 100vh;
+}
   
-  .flex__center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p__quicksand {
+  font-family: var(--font-family);
+  color: var(--color-text-light);
+}
