@@ -2,8 +2,27 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 #jams {
     padding-left: 2rem;
+}
+
+.app__gamejam-gallery {
+    padding-top: 2rem;
+
+    display: flex;
+    gap: 3vmin;
+    position: relative;
+    z-index: 100;
+}
+
+.app__gamejam-gallery img {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% 50%;
+
+    user-select: none;
 }

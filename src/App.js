@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {Hero, GameJams, Hackathons, Contact } from './containers'
-import { Navbar } from './components'
+import {Navbar, RoundedEdge} from './components'
 import './App.css'
 
 const app = () => {
@@ -10,6 +10,7 @@ const app = () => {
       <Navbar />
       <Hero />
       <GameJams />
+      <RoundedEdge />
       <Hackathons />
       <Contact />
     </div>

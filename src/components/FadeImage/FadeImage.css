@@ -1,0 +1,23 @@
+.app__fadeImage img {
+    position: absolute;
+    
+    width: 65vmin;
+    height: 35vmin;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+    user-select: none;
+}
+
+.app__fadeImage .visible{
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.app__fadeImage {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out, visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+}

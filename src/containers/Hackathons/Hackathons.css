@@ -1,0 +1,40 @@
+.app__hackathons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.app__hackathons-gradient {
+    height: 30vh;
+    background-image: linear-gradient(to bottom, var(--color-bg-dark), var(--color-bg-light) 50%);
+}
+
+.app__hackathons-title {
+    position: absolute;
+    top: 50vh;
+    right: 20%;
+    background-color: transparent;
+    
+    color: var(--color-text-dark);
+    font-size: 5vh;
+}
+
+.app__hackathons-divider {
+    height: 100vh;
+    background-color: var(--color-bg-light);
+}
+
+.app__hackathons-image_htn {
+    position: absolute;
+    top: 30vh;
+    left: 10%;
+}
+
+.app__hackathons-image_utx {
+    position: absolute;
+    top: 75vh;
+    left: 55%;
+}

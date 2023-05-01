@@ -1,0 +1,27 @@
+
+.app__rounded-edge {
+    position: relative;
+    /* height: 20vh; */
+    width: 100%;
+    background-color: var(--color-bg-light);
+    object-fit: cover;
+
+    z-index: 50;
+}
+
+.app__rounded {
+    position:absolute;
+    width: 100%;
+    border-radius: 50%;
+    background-color: var(--color-bg-dark);
+    height: 200%;
+    transform: translateY(-50%);
+}
+
+.temp__height-counter, .temp__visible-indicator{
+    color: red;
+    transform: translateY(500%);
+    z-index: 100;
+    position: sticky;
+    top: 10px;
+}
